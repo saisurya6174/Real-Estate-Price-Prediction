@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Price Estimator</title>
+</head>
+<body>
+    <h1>🏘️ Property Price Estimator</h1>
+    <form method="POST">
+        <label for="city">🏙️ City:</label>
+        <input type="text" id="city" name="city" required><br>
+
+        <label for="property_type">🏠 Property type (apartment/house):</label>
+        <input type="text" id="property_type" name="property_type" required><br>
+
+        <label for="living_space">📏 Living space (in m²):</label>
+        <input type="number" id="living_space" name="living_space" required><br>
+
+        <label for="rooms">🚪 Number of rooms:</label>
+        <input type="number" id="rooms" name="rooms" required><br>
+
+        <label for="year_built">📅 Year built:</label>
+        <input type="number" id="year_built" name="year_built" required><br>
+
+        <label for="has_balcony">🌅 Balcony? (1 = Yes, 0 = No):</label>
+        <input type="number" id="has_balcony" name="has_balcony" required><br>
+
+        <button type="submit">Estimate Price</button>
+    </form>
+</body>
+</html>
