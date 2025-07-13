@@ -29,10 +29,3 @@ ML Project
 - Scikit-learn
 - HTML/CSS
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/property-price-estimator.git
-   cd property-price-estimator
